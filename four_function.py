@@ -102,7 +102,7 @@
 # print F.state
 # print G.state
 
-#使用函数属性实现与nonlocal相同的效果，函数名nested是包围nested的tester作用域的一个本地变量
+# 使用函数属性实现与nonlocal相同的效果，函数名nested是包围nested的tester作用域的一个本地变量
 # def tester(s):
 #     def nested(label):
 #         print(label,nested.state)
@@ -118,3 +118,58 @@
 # print F.state
 # print G.state
 
+# 类型属于对象，而不是变量名
+# 分片 [:] 从头到尾的分片，就是一个拷贝
+
+# 参数
+# def f(*args):print(args)
+# f()
+# f(1)
+# f(1,2,3,4)
+# def f(**kwargs):print(kwargs)
+# f()
+# f(a=1,b=2)
+# def f(a,*args,**kwargs):print(a,args,kwargs)
+# f(1,2,3,x=1,y=2)
+# 解包参数
+# def f(a, b, c, d): print(a, b, c, d)
+# args = (1, 2)
+# args += (3, 4)
+# f(*args)
+# kwargs={'a':1,'b':2,'d':4}
+# kwargs['c']=3
+# f(**kwargs)
+# f(*(1,2),**{'d':3,'c':4})
+# f(1,*(2,3),**{'d':4})
+# f(1,d=3,*(2,),**{'c':4})
+# f(1,*(2,4),d=3)
+# f(1,*(2,),c=3,**{'d':4})
+# section 11
+# L = [1, 2, 3, 4]
+# while L:
+#     # front, L = L[0], L[1:]
+#     front = L.pop(0) # 原处修改
+#     print(front, L)
+# seq = [1, 2, 3, 4]
+# a, *b = seq
+# a, b, c, d, *e = seq
+# print(e)
+# L=[1,2,3]
+# L.append([4,5])
+# L.extend([6,7])
+# L.extend({1,2}) #set 无序，没value只有key的dict
+# print(L)
+# print(type({1.2:1,2:2}[1.2]))
+# 增强赋值是做原处修改的
+# L=[1,2]
+# M = L
+# L = L+[3,4]
+# print(L,M)
+# L=[1,2]
+# M=L
+# L+=[3,4]
+# print(L,M)
+# L=[1,2]
+# M = L
+# L[len(L):] = [11,12,13] #L.extend([11,12,13])也是原处修改
+# print(L,M)
