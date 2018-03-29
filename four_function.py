@@ -144,7 +144,7 @@
 # f(1,d=3,*(2,),**{'c':4})
 # f(1,*(2,4),d=3)
 # f(1,*(2,),c=3,**{'d':4})
-# section 11
+# 第三部分，section 11
 # L = [1, 2, 3, 4]
 # while L:
 #     # front, L = L[0], L[1:]
@@ -173,3 +173,25 @@
 # M = L
 # L[len(L):] = [11,12,13] #L.extend([11,12,13])也是原处修改
 # print(L,M)
+# x=print('spam')
+# print(x)
+# L = [1,2]
+# L.append(3)
+# print(L)
+# L = L.append(4)
+# print(L)
+# x='spam'
+# y=99
+# z=['eggs']
+# print(x,y,z,sep='...',file=open('data.txt','w'))
+# text = '%s: %-.4f,%05d' % ('Result',3.14159,42)
+# print(text)
+# print('%s: %-.4f,%05d' % ('Result',3.14159,42))
+# python2.6 's print
+# x = 'a'
+# y = 'b'
+# print x,y
+# print x,y,;print x,y
+# print >> open('data2.6.txt','w'), x,y
+import sys
+sys.stdout.write('hello\n')
