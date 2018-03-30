@@ -175,11 +175,11 @@
 # print(L,M)
 # x=print('spam')
 # print(x)
-# L = [1,2]
-# L.append(3)
-# print(L)
-# L = L.append(4)
-# print(L)
+L = [1,2]
+L.append(3)
+print(L)
+L = L.append(4)
+print(L)
 # x='spam'
 # y=99
 # z=['eggs']
@@ -193,5 +193,28 @@
 # print x,y
 # print x,y,;print x,y
 # print >> open('data2.6.txt','w'), x,y
-import sys
-sys.stdout.write('hello\n')
+# import sys
+# sys.stdout.write('hello\n')
+# import sys
+# sys.stderr.write("bb"*20)
+# import sys
+# x=1;y=2
+# print(x,y)
+# sys.stdout.write(str(x)+' '+str(y)+'\n')
+# open('temp2','w').write(str(x)+' '+str(y)+'\n')
+# print(open('temp2','rb').read()) #python3显示的与2不一样
+# from __future__ import print_function
+# print('%s %s %s' % ('spam','bb','cc'))
+# print('{0} {1} {2}'.format('spam','bb','cc'))
+# 伪代码
+# class FileMaker:
+#     def write(self,string):
+#         pass #do something
+# import sys
+# sys.stdout = FileMaker()
+# print('something')
+# myobj = FileMaker()
+# print('something',file=myobj)
+# print >> myobj,'something'
+# a = raw_input() #python2.7
+# sys.stdin
