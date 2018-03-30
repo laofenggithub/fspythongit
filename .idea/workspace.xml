@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9ad47aea-4175-499d-910c-7228c8cae2f0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/four_function.py" afterPath="$PROJECT_DIR$/four_function.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -115,7 +114,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/ProgramData/Anaconda3/python3.exe" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
     <property name="SearchEverywhereHistoryKey" value="inters&#9;null&#9;null" />
   </component>
   <component name="RunDashboard">
@@ -257,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522316625113</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1">
+      <created>1522447623160</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1522447623160</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -305,7 +311,8 @@
     <MESSAGE value="477页，作用域" />
     <MESSAGE value="341页，2" />
     <MESSAGE value="348页，2" />
-    <option name="LAST_COMMIT_MESSAGE" value="348页，2" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
